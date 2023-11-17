@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    gap: 80px;
+}
+.myimg{
+    display: flex;
+    margin-top: 10px;}
+.logo{
+    display: flex;
+    gap: 0px;
+    border: none;
+}
+.searchcourses{
+    width: 90px;
+    height: 70px;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+
+}
+.mynav{
+    display: flex;
+    justify-content: space-between;
+
+}
+.mynav ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding-left: 340px;
+    padding-top: 10px;
+
+
+}
+.myinp{
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    border-radius: 30px;
+    position: absolute;
+    left: 250px;
+    width: 320px;
+    height: 40px;
+    justify-content: space-between;
+
+
+}
+.mybtn{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    left: 530px;
+    border: none;
+    background-color: transparent;
+
+}
+#btn{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn{
+    display: flex;
+    border: none;
+}
+.basket{
+    width: 300px;
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.basket a{
+    font-size: 20px;
+}
+.ibutton{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+#ii{
+    font-size: 30px;
+}
+.signin{
+    width: 70px;
+    height: 40px;
+    background-color: blueviolet;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+border-radius: 10px;
+border-color: transparent;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#customers {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardBox {
+    width: 20%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 15px;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.cardBox img{
+    width: 80%;
+    height: 200px;
+    
+}
+.cardTextBox {
+height: 30%;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+button {
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    background-color: purple;
+    transition: .5s;
+    color: white;
+}
+button:hover {
+    /* background-color: plum; */
+    transition: .5s;
+    cursor: pointer;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 60px;
+    border-bottom: 1px solid gray;
+    align-items: center;
+}
+.cartButton {
+    display: flex;
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 50%;
+    text-decoration: none;
+    position: relative;
+}
+.cartCount {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
